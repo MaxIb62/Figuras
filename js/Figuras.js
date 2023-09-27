@@ -5,11 +5,11 @@ class Poligono {
     }
 
     calcularPerimetro() {
-      console.log("Este método debe ser implementado en las clases hijas.");
+      console.log("perimetro");
     }
 
     calcularArea() {
-      console.log("Este método debe ser implementado en las clases hijas.");
+      console.log("area.");
     }
   }
   
@@ -66,8 +66,6 @@ class Poligono {
       return (5 / 4) * Math.pow(this.lado, 2) * (1 / Math.tan(Math.PI / 5));
     }
   }
-  
-  // Ejemplo de uso
   const ladoTriangulo = 5;
   const ladoCuadrado = 4;
   const ladoPentagono = 6;
